@@ -164,7 +164,7 @@ Once you've completed the code, run:
 
 ```bash
 cd single_agent
-adk web-port 8000
+adk web
 ```
 
 Try these prompts:

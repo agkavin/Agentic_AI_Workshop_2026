@@ -37,7 +37,7 @@ solutions/
 │   └── agent.py      # Complete agent configuration
 └── multi_agent/
     ├── stock_agent.py  # Complete stock agent
-    ├── graph_agent.py  # Complete graph agent
+    ├── data_visualization_agent.py  # Complete graph agent
     └── root_agent.py   # Complete root/manager agent
 ```
 
@@ -49,7 +49,7 @@ solutions/
 
 ```bash
 cd solutions/single_agent
-adk web-port 8000
+adk web
 ```
 
 Test with:
@@ -61,7 +61,7 @@ Test with:
 
 ```bash
 cd solutions/multi_agent
-adk web-port 8000
+adk web
 ```
 
 Test with:

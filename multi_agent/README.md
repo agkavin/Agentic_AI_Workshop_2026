@@ -175,7 +175,7 @@ In this exercise, you'll:
    - Fill in tool description for `get_stock_price()`
    - Write instructions for the stock specialist
 
-2. ✅ **Complete Graph Agent** (`graph_agent.py`)
+2. ✅ **Complete Graph Agent** (`data_visualization_agent.py`)
    - Write instructions for the visualization specialist
    - Understand code execution capability
 
@@ -195,7 +195,7 @@ Once you've completed the code, run:
 
 ```bash
 cd multi_agent
-adk web-port 8000
+adk web
 ```
 
 Try these prompts:

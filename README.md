@@ -2,18 +2,6 @@
 
 Welcome to the **Agentic AI Workshop**! In this hands-on 1.5-hour session, you'll learn how to build intelligent AI agents using the **Google ADK (Agent Development Kit)** framework.
 
-## 🎯 Learning Objectives
-
-By the end of this workshop, you will:
-
-- ✅ Understand what makes an AI "agentic" (vs. simple LLM calls)
-- ✅ Build a single-agent system with custom tools
-- ✅ Create a multi-agent orchestration with specialized sub-agents
-- ✅ Learn the ReAct loop (Thought → Action → Observation)
-- ✅ Deploy and test agents using the ADK Web UI
-
----
-
 ## 🚀 Quick Start with GitHub Codespaces
 
 ### Step 1: Open in Codespaces
@@ -57,7 +45,7 @@ GitHub will automatically:
 Run this command in the terminal:
 
 ```bash
-adk web-port 8000
+adk web
 ```
 
 You should see:
@@ -88,13 +76,13 @@ The Web UI allows you to:
 - `agent.py`: Configure the agent with instructions and tools
 
 **Learning resource:**
-- Read `single_agent/LEARN.md` to understand the ReAct loop
+- Read `single_agent/README.md` to understand the ReAct loop
 
 **Testing:**
 Navigate to the `single_agent/` directory and run:
 ```bash
 cd single_agent
-adk web-port 8000
+adk web
 ```
 
 Try asking:
@@ -115,16 +103,16 @@ Try asking:
 **Files to complete:**
 - `root_agent.py`: Configure the manager with delegation logic
 - `stock_agent.py`: Complete the stock data agent
-- `graph_agent.py`: Complete the visualization agent
+- `data_visualization_agent.py`: Complete the visualization agent
 
 **Learning resource:**
-- Read `multi_agent/LEARN.md` to understand multi-agent patterns
+- Read `multi_agent/README.md` to understand multi-agent patterns
 
 **Testing:**
 Navigate to the `multi_agent/` directory and run:
 ```bash
 cd multi_agent
-adk web-port 8000
+adk web
 ```
 
 Try asking:
@@ -165,27 +153,6 @@ Check the "PORTS" tab in VS Code and click the globe icon next to port 8000
 - [Google ADK Documentation](https://google.github.io/adk/)
 - [Agentic AI Concepts](https://www.anthropic.com/research/building-effective-agents)
 - [ReAct Paper](https://arxiv.org/abs/2210.03629)
-
----
-
-## 🎓 Workshop Flow
-
-1. **Introduction (10 min)**: What is Agentic AI?
-2. **Exercise 1 (30 min)**: Build a single agent with tools
-3. **Exercise 2 (45 min)**: Create multi-agent orchestration
-4. **Wrap-up (5 min)**: Next steps and resources
-
----
-
-## 🤝 Contributing
-
-Found a bug or have suggestions? Feel free to open an issue or submit a pull request!
-
----
-
-## 📝 License
-
-This workshop is provided for educational purposes. Feel free to use and modify for your learning!
 
 ---
 
