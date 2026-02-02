@@ -2,25 +2,9 @@
 
 Welcome to the **Agentic AI Workshop**! In this hands-on 1.5-hour session, you'll learn how to build intelligent AI agents using the **Google ADK (Agent Development Kit)** framework.
 
-## 🚀 Quick Start with GitHub Codespaces
+## 🚀 Quick Start
 
-### Step 1: Open in Codespaces
-
-1. **Fork this repository** to your GitHub account
-2. Click the green **"Code"** button
-3. Select **"Codespaces"** tab
-4. Click **"Create codespace on main"**
-
-GitHub will automatically:
-- ✨ Set up a Python 3.11 environment
-- ✨ Install `google-adk` and dependencies
-- ✨ Configure port forwarding for the Web UI
-
-**Wait for the setup to complete** (you'll see "✅ Environment ready!" in the terminal).
-
----
-
-### Step 2: Get Your Google API Key
+### Step 1: Get Your Google API Key
 
 1. Visit [Google AI Studio](https://aistudio.google.com/app/apikey)
 2. Sign in with your Google account
@@ -29,7 +13,7 @@ GitHub will automatically:
 
 ---
 
-### Step 3: Configure Your Environment
+### Step 2: Configure Your Environment
 
 1. Open the `.env` file in the root directory
 2. Replace `your_key_here` with your actual API key:
@@ -40,7 +24,7 @@ GitHub will automatically:
 
 ---
 
-### Step 4: Launch the ADK Web UI
+### Step 3: Launch the ADK Web UI
 
 Run this command in the terminal:
 
